@@ -68,6 +68,7 @@ function displayFriends() {
                 friend.satisfaction++;
                 mushroomCount--;
                 displayFriends();
+                displayMushrooms();
             } else if (mushroomCount === 0) {
                 alert('out of mushrooms, try again!');
             }
