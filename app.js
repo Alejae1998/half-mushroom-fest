@@ -76,7 +76,7 @@ function displayFriends() {
         //         and if the friend's satisfaction level is below 3 and you have mushrooms left
         //             increment the friends satisfaction and decrement your mushrooms
         //             then display your friends and mushrooms with the updated state
-        friendEl.append(friendEl);
+        friendsEl.append(friendEl);
         // append the friendEl to the friends list in DOM
     }
 }
